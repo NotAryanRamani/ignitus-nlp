@@ -26,11 +26,34 @@ The datasets were cleaned and merged into single dataset which only contains rel
 
 # Models Trained
 
-*Stay tuned*
+### 1. Logistic Regression
+
+Conducted a Grid Search Cross Validation using following parameters:
+
+    param_grid = {  
+        'max_iter': [100, 200],   
+        'multi_class': ['ovr', 'multinomial'],  
+        'C': [0.001, 0.01]    
+    }
+
+Best Parameters: `{'C': 0.001, 'max_iter': 100, 'multi_class': 'multinomial'}`
+
+*Note:  Parameters are less because of limited computational resources.*
+
+> ***Stay tuned for more updates***
 
 ---
 
 # Results
+
+### 1. Logistic Regression
+
+The metric for model evaluation was accuracy
+
+- Accuracy Score on Train set: 0.6117
+- Accuracy Score on Test set: 0.6195
+
+The model was regularized using the 'C' parameter(mentioned in the [Models Trained](#models-trained) section)
 
 *Stay tuned*
 
