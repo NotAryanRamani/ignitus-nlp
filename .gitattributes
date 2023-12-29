@@ -1,0 +1,2 @@
+artifacts/data/data.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/data/train.ft.txt filter=lfs diff=lfs merge=lfs -text
