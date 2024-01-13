@@ -5,7 +5,7 @@ The goal of the project is to generate text using look up tables at character le
 ## 1. Markov Chain (Probabilistic Approach)
 
 Steps:
-1. Import Data and preprocess data.
+1. Import and preprocess data.
 2. Split data into bigrams (pair of 2 characters) and get unique characters.
 3. Create character to index and index to character mappings.
 4. Create look up table using Bigram counts and normalize them to find probabilities.
