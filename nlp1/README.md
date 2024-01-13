@@ -43,3 +43,7 @@ Steps:
     * Output Linear layer with Softmax activation
 5. Forward pass using embedding table of words to produce logits, and backpass to change the embeddings, weights and biases of the network.
 6. Generate text using [torch.multinomial](https://pytorch.org/docs/stable/generated/torch.multinomial.html) function.
+
+## 4. Wave Net
+
+*Coming Soon :)*
